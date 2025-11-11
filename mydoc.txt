@@ -1,0 +1,11 @@
+# Создаем файл с описанием
+echo "Группа: 110_ИС" > mydoc.txt
+echo "Фамилия: Юлдашева" >> mydoc.txt
+echo "Имя: Зухро" >> mydoc.txt
+echo "Отчество: Наимджоновна" >> mydoc.txt
+
+# Добавляем файл в staging area
+git add mydoc.txt
+
+# Выполняем первый коммит
+git commit -m "Первая версия: базовые данные"
